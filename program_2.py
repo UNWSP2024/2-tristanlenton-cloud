@@ -1,13 +1,12 @@
-
-def average_age():
-    # Get User Input
-
-
-    # Sum ages
-
-    # Average the ages
-
-    # Print the results
-
-# Line which calls the above function.
-average_age()
+friend_1 = input("Friend 1 age: ")
+friend_1 = int(friend_1)
+friend_2 = input("Friend 2 age: ")
+friend_2 = int(friend_2)
+friend_3 = input("Friend 3 age: ")
+friend_3 = int(friend_3)
+friend_4 = input("Friend 4 age: ")
+friend_4 = int(friend_4)
+friend_5 = input("Friend 5 age: ")
+friend_5 = int(friend_5)
+avgAge = int(friend_1 + friend_2 + friend_3 + friend_4 + friend_5) / 5
+print("Average Age:", avgAge)
